@@ -1,556 +1,329 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Decorators - Design Studio HTML Template | Contact Us</title>
-<!-- Stylesheets -->
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-<!-- Responsive -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<link href="css/responsive.css" rel="stylesheet">
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>NAQSH-E-FARHAT</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.svg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/lightgallery.css" />
+    <link rel="stylesheet" href="css/woocommerce.css" />
+    <link rel="stylesheet" href="css/royal-preload.css" />
+
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+    <div id="royal_preloader"></div>
+    <div id="page" class="site">
+        <header id="site-header" class="site-header header-transparent">
+            <!-- Main Header start -->
+            <div class="octf-main-header is-fixed">
+                <div class="octf-area-wrap">
+                    <div class="container-fluid octf-mainbar-container">
+                        <div class="octf-mainbar">
+                            <div class="octf-mainbar-row octf-row">
+                                <div class="octf-col logo-col no-padding">
+                                    <div id="site-logo" class="site-logo">
+                                        <a href="index.html">
+                                            <img src="images/logo.svg" alt="NAQSH-E-FARHAT" class="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="octf-col menu-col no-padding">
+                                    <nav id="site-navigation" class="main-navigation">
+                                        <ul class="menu">
+                                            <li class="menu-item current-menu-item current-menu-ancestor">
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li class="menu-item"><a href="about-us.html">About Us</a>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="index.html#Services">Services</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="architecture.html">Architecture</a></li>
+                                                    <li><a href="interior_design.html">Interior</a></li>
+                                                    <li><a href="contact.html">Consultation</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item"><a href="index.html#portfolio">Portfolio</a>
+                                            </li>
+                                            <li><a href="contact.html">Contacts</a></li>
+                                            <li><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/naqshefarhat1/30min?background_color=07093c&text_color=ffffff&primary_color=09403d'});return false;">Schedule time with me</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
 
-<div class="page-wrapper">
- 	
-    <!-- Preloader -->
-    <div class="preloader"></div>
- 	
-    <!-- Main Header-->
-    <header class="main-header">
-    	<!-- Header Top -->
-    	<div class="header-top">
-        	<div class="auto-container">
-            	<div class="row clearfix">
-                    
-                    <!--Top Left-->
-                    <div class="top-left pull-left">
-                    	<div class="dropdown lang-dropdown">
-                        	<button  class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img src="images/icons/flog.png" alt="" /> &nbsp; English <span class="fa fa-angle-down"></span></button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">French</a></li>
-                                <li><a href="#">Espanish</a></li>
-                                <li><a href="#">Chinese</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_mobile">
+                <div class="container-fluid">
+                    <div class="octf-mainbar-row octf-row">
+                        <div class="octf-col">
+                            <div class="mlogo_wrapper clearfix">
+                                <div class="mobile_logo">
+                                    <a href="index.html">
+                                        <img src="images/logo.svg" alt="NAQSH-E-FARHAT">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="octf-col justify-content-end">
+
+                            <div class="octf-menu-mobile octf-cta-header">
+                                <div id="mmenu-toggle" class="mmenu-toggle">
+                                    <button><i class="ot-flaticon-menu"></i></button>
+                                </div>
+                                <div class="site-overlay mmenu-overlay"></div>
+                                <div id="mmenu-wrapper" class="mmenu-wrapper on-right">
+                                    <div class="mmenu-inner">
+                                        <a class="mmenu-close" href="#"><i class="ot-flaticon-right-arrow"></i></a>
+                                        <div class="mobile-nav">
+                                            <ul id="menu-main-menu" class="mobile_mainmenu none-style">
+                                                <li class="menu-item-has-children current-menu-item current-menu-ancestor">
+                                                    <a href="index.html">Home</a>
+                                                </li>
+                                                <li class="menu-item-has-children"><a href="about-us.html">About Us</a>
+
+                                                </li>
+                                                <li class="menu-item-has-children"><a href="index.html#Services">Services</a>
+                                                    <ul id="menu-main-menu" class="mobile_mainmenu none-style">
+                                                        <li class="menu-item-has-children">
+                                                        <a href="architecture.html">Architecture</a>
+                                                        <a href="interior_design.html">Interior</a>
+                                                        <a href="contact.html">Consultation</a>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item-has-children"><a href="index.html#portfolio">Portfolio</a>
+
+                                                </li>
+                                                <li class="menu-item-has-children"><a href="contact.html">Contacts</a>
+
+                                                </li>
+                                                <li><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/naqshefarhat1/30min?background_color=07093c&text_color=ffffff&primary_color=09403d'});return false;">Schedule time with me</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="content" class="site-content">
+            <div class="page-header dtable text-center header-transparent page-header-contact">
+                <div class="dcell">
+                    <div class="container">
+                        <h1 class="page-title">Contact</h1>
+                        <ul id="breadcrumbs" class="breadcrumbs none-style">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Contacts</li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="contact-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center mb-5 mb-lg-0">
+                        <div class="contact-left">
+                            <h2>Get in Touch</h2>
+                            <p class="font14">Your email address will not be published. Required fields are marked *</p>
+                            <form action="https://formsubmit.co/zainbashir.srj@gmail.com" method="POST" class="wpcf7">
+                                <input type="hidden" name="_subject" value="New Message from Your Website">
+                                <input type="hidden" name="_captcha" value="false">
+                            
+                                <div class="main-form">
+                                    <p>
+                                        <label for="name"> <span class="error" id="err-name">please enter name</span></label>
+                                        <input type="text" name="name" size="40" class="" aria-invalid="false" placeholder="Your Name *" required>
+                                    </p>
+                                    <p>
+                                        <label for="email"> 
+                                            <span class="error" id="err-email">please enter e-mail</span>
+                                            <span class="error" id="err-emailvld">e-mail is not a valid format</span>
+                                        </label>
+                                        <input type="email" name="email" id="email" size="40" class="" aria-invalid="false" placeholder="Your Email *" required>
+                                    </p>
+                                    <p>
+                                        <label for="message"></label>
+                                        <textarea name="message" id="message" cols="40" rows="10" class="" aria-invalid="false" placeholder="Message..." required></textarea>
+                                    </p>
+                                    <p><button type="submit" id="send" class="octf-btn">Send Message</button></p>
+                                    <div class="clear"></div>   
+                                    <div class="error" id="err-form">There was a problem validating the form please check!</div>
+                                    <div class="error" id="err-timedout">The connection to the server timed out!</div>
+                                    <div class="error" id="err-state"></div>
+                                </div>
+                            </form>
+                            
+
+                            <div class="clear"></div>
+                            <div id="ajaxsuccess">Successfully sent!!</div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contact-right">
+                            <div class="ot-heading">
+                                <span>[ our contact details ]</span>
+                                <h2 class="main-heading">Let's Start a Project</h2>
+                            </div>
+                            <p>Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days. We will be happy to answer your questions.</p>
+                            <div class="contact-info">
+                                <i class="ot-flaticon-place"></i>
+                                <div class="info-text">
+                                    <h6>OUR ADDRESS:</h6>
+                                    <p>11 A Commercial, Al-Kabir Town near Lake City, Lahore, Pakistan</p>
+                                </div>
+                            </div>
+                            <div class="contact-info">
+                                <i class="ot-flaticon-mail"></i>
+                                <div class="info-text">
+                                    <h6>OUR MAILBOX:</h6>
+                                    <p><a href="mailto:naqshefarhat1@mail.com">naqshefarhat1@mail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-info">
+                                <i class="ot-flaticon-phone-call"></i>
+                                <div class="info-text">
+                                    <h6>OUR PHONE:</h6>
+                                    <p><a href="tel:+923314444527">+92 331-4444-527</a></p>
+                                </div>
+                            </div>
+                            <div class="list-social">
+                                <!-- <ul>
+                                    <li><a href="http://twitter.com" target="_self"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="http://facebook.com" target="_self"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="http://linkedin.com" target="_self"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="http://instagram" target="_self"><i class="fab fa-instagram"></i></a></li>
+                                </ul> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="contact-map">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54525.146391783215!2d74.16864404752445!3d31.336298270258375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919ab062898aff1%3A0x615468225d9ff23!2sAl%20Kabir%20Town!5e0!3m2!1sen!2s!4v1724247773947!5m2!1sen!2s" height="522" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+
+        <footer id="site-footer" class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-xl-0">
+                        <div class="widget-footer">
+                            <img src="images/logo.svg" alt="NAQSH-E-FARHAT" class="footer-logo" style="height: 90px;">
+                            <p>We provides a full range of interior design, architectural design.</p>
+                            <div class="footer-social list-social">
+                                <ul>
+                                    <li><a href="http://facebook.com" target="_self"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="http://twitter.com" target="_self"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="http://linkedin.com" target="_self"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="http://instagram" target="_self"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12 mb-4 mb-md-0">
+                        <div class="widget-footer widget-contact">
+                            <h6>Quick Links</h6>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
-                    
-                    <!--Top Right-->
-                    <div class="top-right pull-right">
-                    
-                    	<!--social-icon-->
-                        <div class="social-icon">
-                        	<a href="#"><span class="fa fa-facebook"></span></a>
-                            <a href="#"><span class="fa fa-twitter"></span></a>
-                            <a href="#"><span class="fa fa-dribbble"></span></a>
-                            <a href="#"><span class="fa fa-linkedin"></span></a>
-                        </div>
-                        
-                    	<ul>
-                        	<li><span class="fa fa-envelope-o"></span>Contact@Decorators.com</li>
-                            <li><span class="fa fa-phone"></span>Toll Free: +1 212-212-2376</li>
-                            <li><span class="fa fa-clock-o"></span>Mon - Fri : 9:00 -1700</li>
-                        </ul>
-                        
-                        
-                    </div>
-                    
-                </div>
-                
-            </div>
-        </div><!-- Header Top End -->
-        
-        
-        <!-- Main Box -->
-    	<div class="main-box">
-        	<div class="auto-container">
-            	<div class="outer-container clearfix">
-                    <!--Logo Box-->
-                    <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
-                    </div>
-                    
-                    <!--Nav Outer-->
-                    <div class="nav-outer clearfix">
-                        <!-- Main Menu -->
-                        <nav class="main-menu">
-                            <div class="navbar-header">
-                                <!-- Toggle Button -->    	
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            
-                            <div class="navbar-collapse collapse clearfix">
-                                <ul class="navigation clearfix">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li class="dropdown"><a href="#">About Us</a>
-                                    	<ul>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="our-team.html">Our Team</a></li>
-                                            <li><a href="team-single.html">Team Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Services</a>
-                                    	<ul>
-                                            <li><a href="services.html">Our Services</a></li>
-                                            <li><a href="service-single.html">Services Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Projects</a>
-                                    	<ul>
-                                            <li><a href="portfolio-default.html">Projects Standard</a></li>
-                                            <li><a href="portfolio-fullwidth.html">Projects Fullwidth</a></li>
-                                            <li><a href="portfolio-with-text.html">Projects With Text</a></li>
-                                            <li><a href="portfolio-single-one.html">Projects Single 01</a></li>
-                                            <li><a href="portfolio-single-two.html">Projects Single 02</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Blog</a>
-                                    	<ul>
-                                            <li><a href="blog.html">Blog Standard</a></li>
-                                            <li><a href="blog-large-image.html">Blog Large Image</a></li>
-                                            <li><a href="blog-single.html">Blog Single</a></li>
-                                        </ul>
-                                    </li>
-                                    
-                                    <li class="dropdown"><a href="#">Shop</a>
-                                        <ul>
-                                            <li><a href="shop.html">Shop Products</a></li>
-                                            <li><a href="shop-single.html">Shop Single</a></li>
-                                            <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="register.html">Login / Register</a></li>
-                                        </ul>
-                                    </li>
-                                    
-                                    <li class="dropdown"><a href="#">Pages</a>
-                                    	<ul>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="our-team.html">Our Team</a></li>
-                                            <li><a href="team-single.html">Team Single</a></li>
-                                            <li><a href="pricing.html">Pricing Table</a></li>
-                                            <li><a href="faqs.html">FAQ's</a></li>
-                                        </ul>
-                                    </li>
-                                    
-                                    <li class="current"><a href="contact.html">Contact</a></li>
-                                    
-                                 </ul>
-                            </div>
-                        </nav><!-- Main Menu End-->
-                        
-                    </div><!--Nav Outer End-->
-                    
-                    <!-- Hidden Nav Toggler -->
-                    <div class="nav-toggler">
-                    <button class="hidden-bar-opener"><span class="icon fa fa-bars"></span></button>
-                    </div><!-- / Hidden Nav Toggler -->
-                    
-                    <!--Search Btn-->
-                    <a href="shopping-cart.html" class="cart-btn-outer"><div class="icon"><span class="flaticon-shopping-bag"></span><span class="count">2</span></div></a>
-                    <div class="header-search-icon search-box-btn"><span class="flaticon-search"></span></div>
-                    
-            	</div>    
-            </div>
-        </div>
-    
-    </header>
-    <!--End Main Header -->
-    
-    
-    <!-- Hidden Navigation Bar -->
-    <section class="hidden-bar right-align">
-        
-        <div class="hidden-bar-closer">
-            <button class="btn"><i class="fa fa-close"></i></button>
-        </div>
-        
-        <!-- Hidden Bar Wrapper -->
-        <div class="hidden-bar-wrapper">
-        
-            <!-- .logo -->
-            <div class="logo text-center">
-                <a href="index.html"><img src="images/logo-2.png" alt=""></a>			
-            </div><!-- /.logo -->
-            
-            <!-- .Side-menu -->
-            <div class="side-menu">
-            <!-- .navigation -->
-                <ul class="navigation">
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li class="dropdown"><a href="#">About Us</a>
-                        <ul>
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="our-team.html">Our Team</a></li>
-                            <li><a href="team-single.html">Team Single</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#">Services</a>
-                        <ul class="submenu">
-                            <li><a href="services.html">Our Services</a></li>
-                            <li><a href="service-single.html">Services Single</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#">Projects</a>
-                        <ul class="submenu">
-                            <li><a href="portfolio-default.html">Projects Standard</a></li>
-                            <li><a href="portfolio-fullwidth.html">Projects Fullwidth</a></li>
-                            <li><a href="portfolio-with-text.html">Projects With Text</a></li>
-                            <li><a href="portfolio-single-one.html">Projects Single 01</a></li>
-                            <li><a href="portfolio-single-two.html">Projects Single 02</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#">Blog</a>
-                        <ul class="submenu">
-                            <li><a href="blog.html">Blog Standard</a></li>
-                            <li><a href="blog-large-image.html">Blog large Image</a></li>
-                            <li><a href="blog-single.html">Blog Single</a></li>
-                        </ul>
-                    </li>
-                    
-                    <li class="dropdown"><a href="#">Shop</a>
-                        <ul class="submenu">
-                            <li><a href="shop.html">Shop Products</a></li>
-                            <li><a href="shop-single.html">Shop Single</a></li>
-                            <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                            <li><a href="register.html">Login / Register</a></li>
-                        </ul>
-                    </li>
-                    
-                    <li class="dropdown"><a href="#">Pages</a>
-                        <ul class="submenu">
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="our-team.html">Our Team</a></li>
-                            <li><a href="team-single.html">Team Single</a></li>
-                            <li><a href="pricing.html">Pricing Table</a></li>
-                            <li><a href="faqs.html">FAQ's</a></li>
-                        </ul>
-                    </li>
-                    
-                    <li class="current"><a href="contact.html">Contact</a></li>
-                </ul>
-            </div><!-- /.Side-menu -->
-        
-            <div class="social-icons">
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-        
-        </div><!-- / Hidden Bar Wrapper -->
-    </section>
-    <!-- / Hidden Bar -->
-    
-    
-    <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/bg-page-title-1.jpg);">
-        <div class="auto-container">
-            <h1>Contact Us</h1>
-        </div>
-    </section>
-    
-    <!--Page Info-->
-    <section class="page-info">
-        <div class="auto-container clearfix">
-            <div class="pull-left"><h2>Contact Us</h2></div>
-            <div class="pull-right">
-                <ul class="bread-crumb clearfix">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    
-    <!--Contact Section-->
-    <section class="contact-section">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-                
-                <!--Form Column -->
-            	<div class="column form-column col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                	<div class="sec-title medium"><h2>Send Message Us</h2></div>
-                	<!--form-box-->
-                    <div class="form-box default-form">
-                        <div class="contact-form default-form">
-                            <form method="post" action="sendemail.php" id="contact-form">
-                                <div class="row clearfix">
-                                
-                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <select name="subject">
-                                            <option>Subject</option>
-                                            <option>Wooden Flooring</option>
-                                            <option>Metal Flooring</option>
-                                            <option>Concrete Flooring</option>
-                                        </select>
-                                    </div>
-                                
-                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="username" value="" placeholder="Your Name *" required>
-                                    </div>
-        
-                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="email" name="email" value="" placeholder="Your Mail *" required>
-                                    </div>
-                                    
-                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="phone" value="" placeholder="Phone Number">
-                                    </div>
-                                    
-                                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                        <textarea name="message" placeholder="Message *"></textarea>
-                                    </div>
-                                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                        <button type="submit" class="theme-btn btn-style-two">Get Quote</button>
-                                    </div>
-                                </div>
-                            </form>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="widget-footer footer-widget-subcribe">
+                            <h6>Contact Us</h6>
+                            <ul class="footer-list">
+                                <li class="footer-list-item">
+                                    <span class="list-item-icon"><i class="ot-flaticon-place"></i></span>
+                                    <span class="list-item-text">11 A Commercial, Al-Kabir Town near Lake City, Lahore, Pakistan</span>
+                                </li>
+                                <li class="footer-list-item">
+                                    <span class="list-item-icon"><i class="ot-flaticon-mail"></i></span>
+                                    <span class="list-item-text">naqshefarhat1@mail.com</span>
+                                </li>
+                                <li class="footer-list-item">
+                                    <span class="list-item-icon"><i class="ot-flaticon-phone-call"></i></span>
+                                    <span class="list-item-text">+92 331-4444-527</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                
-                <!--Column-->
-                <div class="column info-column col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                	<div class="sec-title medium"><h2>Contact Details</h2></div>
-                    <div class="desc-text">There are many variations off +1800 854 5864 available, but the majority have ut suffered alterattions in some forms by injected humour looks events slightly seds believable ut  seds do eiusmod tempor incididunt labore.</div>
-                	<div class="info-style-one">
-                        <ul>
-                            <li><div class="icon-box"><span class="flaticon-international-delivery"></span></div><h4>Address :</h4><div class="text">21/17, Level 4 Steel Rock St, Melbourne <br>Victoria 3000, Australia.</div></li>
-                            <li><div class="icon-box"><span class="flaticon-envelope"></span></div><h4>Mail to Fernando :</h4><div class="text">Decoratorssupport@gmail.com</div></li>
-                            <li><div class="icon-box"><span class="flaticon-phone-call"></span></div><h4>Call Him:</h4><div class="text"> +1 (44) 123-45-67, +1(44) 456-78-90</div></li>
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>    
-       	</div>
-   	</section>
-    
-    
-    <!--Map Section-->
-    <section class="map-section">
-    	<div class="map-outer">
-
-            <!--Map Canvas-->
-            <div class="map-canvas"
-                data-zoom="10"
-                data-lat="23.815811"
-                data-lng="90.412580"
-                data-type="roadmap"
-                data-hue="#fc721e"
-                data-title="Dhaka"
-                data-content="Dhaka 1000-1200, Bangladesh<br><a href='mailto:info@youremail.com'>info@youremail.com</a>"
-                style="height:480px;">
             </div>
-
-        </div>
-    </section>
-    
-    
-    <!--Main Footer-->
-    <footer class="main-footer" style="background-image:url(images/background/footer-bg.jpg);">
-    	<div class="auto-container">
-        
-            <!--Widgets Section-->
-            <div class="widgets-section">
-            	<div class="row clearfix">
-                	<!--Big Column-->
-                	<div class="big-column col-md-6 col-sm-12 col-xs-12">
-                    	<div class="row clearfix">
-                            
-                            <!--Footer Column-->
-                        	<div class="footer-column col-md-6 col-sm-6 col-xs-12">
-                            	<div class="footer-widget about-widget">
-                                	<div class="footer-logo"><figure><a href="index.html"><img src="images/logo-4.png" alt=""></a></figure></div>
-                                    <div class="widget-content">
-                                    	<div class="text">Must explain too you all this mistaken idea off denouncing pleasure and well praising pain was born and I will gives you complete accounts systems must explain to idea of denouncing.</div>
-                                        <ul class="contact-info">
-                                        	<li><span class="icon fa fa-map-marker"></span>Rock St 12, Newyork City, USA</li>
-                                            <li><span class="icon fa fa-phone"></span>(526) 236-895-4732</li>
-                                            <li><span class="icon fa fa-envelope-o"></span>Decoratorssuport@gmail.com</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--Footer Column-->
-                        	<div class="footer-column col-md-6 col-sm-6 col-xs-12">
-                            	<div class="footer-widget tags-widget">
-                                	<h2>Popular Tags</h2>
-                                    <div class="widget-content">
-                                    	<ul class="tags-list">
-                                        	<li><a href="#">Designs</a></li>
-                                            <li><a href="#">Tips</a></li>
-                                            <li><a href="#">Interior</a></li>
-                                            <li><a href="#">Doors</a></li>
-                                            <li><a href="#">Curtains</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="footer-widget gallery-widget">
-                                	<h2>Recent Works</h2>
-                                    <div class="gallery-widget-carousel">
-                                    	<div class="item"><figure class="post-thumb"><img src="images/gallery/thumb-1.jpg" alt=""><a href="#" class="overlay-link"><span class="fa fa-link"></span></a></figure></div>
-                                        <div class="item"><figure class="post-thumb"><img src="images/gallery/thumb-2.jpg" alt=""><a href="#" class="overlay-link"><span class="fa fa-link"></span></a></figure></div>
-                                        <div class="item"><figure class="post-thumb"><img src="images/gallery/thumb-3.jpg" alt=""><a href="#" class="overlay-link"><span class="fa fa-link"></span></a></figure></div>
-                                        <div class="item"><figure class="post-thumb"><img src="images/gallery/thumb-4.jpg" alt=""><a href="#" class="overlay-link"><span class="fa fa-link"></span></a></figure></div>
-                                        <div class="item"><figure class="post-thumb"><img src="images/gallery/thumb-1.jpg" alt=""><a href="#" class="overlay-link"><span class="fa fa-link"></span></a></figure></div>
-                                        <div class="item"><figure class="post-thumb"><img src="images/gallery/thumb-2.jpg" alt=""><a href="#" class="overlay-link"><span class="fa fa-link"></span></a></figure></div>
-                                        <div class="item"><figure class="post-thumb"><img src="images/gallery/thumb-3.jpg" alt=""><a href="#" class="overlay-link"><span class="fa fa-link"></span></a></figure></div>
-                                        <div class="item"><figure class="post-thumb"><img src="images/gallery/thumb-4.jpg" alt=""><a href="#" class="overlay-link"><span class="fa fa-link"></span></a></figure></div>
-                                        <div class="item"><figure class="post-thumb"><img src="images/gallery/thumb-1.jpg" alt=""><a href="#" class="overlay-link"><span class="fa fa-link"></span></a></figure></div>
-                                        <div class="item"><figure class="post-thumb"><img src="images/gallery/thumb-2.jpg" alt=""><a href="#" class="overlay-link"><span class="fa fa-link"></span></a></figure></div>
-                                        <div class="item"><figure class="post-thumb"><img src="images/gallery/thumb-3.jpg" alt=""><a href="#" class="overlay-link"><span class="fa fa-link"></span></a></figure></div>
-                                        <div class="item"><figure class="post-thumb"><img src="images/gallery/thumb-4.jpg" alt=""><a href="#" class="overlay-link"><span class="fa fa-link"></span></a></figure></div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
+        </footer><!-- #site-footer -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
+                        <p>Copyright © 2024 All Rights Reserved.</p>
                     </div>
-                    
-                    <!--Big Column-->
-                	<div class="big-column col-md-6 col-sm-12 col-xs-12">
-                    	<div class="row clearfix">
-                            
-                            <!--Footer Column-->
-                        	<div class="footer-column col-md-6 col-sm-6 col-xs-12">
-                            	<div class="footer-widget posts-widget">
-                                	<h2>Recent News</h2>
-                                    <div class="widget-content">
-                                    	<div class="posts">
-                                            <div class="post">
-                                                <figure class="post-thumb"><img src="images/resource/post-thumb-1.jpg" alt=""><a href="#" class="overlay-link"><span class="flaticon-plus-1"></span></a></figure>
-                                                <div class="desc-text"><a href="#">How mistakens denoncings pleasure and complete.</a></div>
-                                                <div class="time"><span class="fa fa-clock-o"></span> Oct 03, 2015</div>
-                                            </div>
-                                            <div class="post">
-                                                <figure class="post-thumb"><img src="images/resource/post-thumb-2.jpg" alt=""><a href="#" class="overlay-link"><span class="flaticon-plus-1"></span></a></figure>
-                                                <div class="desc-text"><a href="#">Pleasure praising pains was, expound actual teaching.</a></div>
-                                                <div class="time"><span class="fa fa-clock-o"></span> Aug 21, 2015</div>
-                                            </div>
-                                        </div>
-                                        <a class="view-more theme-btn" href="#">Read More <span class="fa fa-caret-right"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!--Footer Column-->
-                        	<div class="footer-column col-md-6 col-sm-6 col-xs-12">
-                            	<div class="footer-widget contact-widget">
-                                	<h2>Send Us Message</h2>
-                                    <div class="widget-content">
-                                        <div class="newsletter-form">
-                                            <form method="post" action="contact.html">
-                                                <div class="form-group">
-                                                    <input type="text" name="name" value="" placeholder="Name" required>
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="email" name="email" value="" placeholder="Email *" required>
-                                                </div>
-                                                <div class="form-group">
-                                                    <textarea name="message" placeholder="Message *" required></textarea>
-                                                </div>
-                                                <button type="submit" class="theme-btn btn-style-two">Send us</button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    
-                 </div>
-             </div>
-        
-        </div>
-        
-        <!--Footer Bottom-->
-         <div class="footer-bottom">
-         	<div class="auto-container">
-            	<div class="clearfix">
-                	<div class="pull-left"><div class="copyright">Copyrights &copy; 2016 All Rights Reserved by &ensp; <a target="_blank" href="https://themeforest.net/user/steelthemes/portfolio" class="styled-font author-name">SteelThemes</a></div></div>
-                    <div class="pull-right">
-                    	<ul class="footer-nav">
-                        	<li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Contact</a></li>
+                    <div class="col-lg-5 col-md-12 align-self-center">
+                        <ul class="icon-list-items inline-items justify-content-lg-end">
+                            <!-- <li class="icon-list-item inline-item">
+                                <a href="#"><span class="icon-list-text">Terms of use</span></a>
+                            </li>
+                            <li class="icon-list-item inline-item">
+                                <a href="#"><span class="icon-list-text">Privacy Environmental Policy</span></a>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div><!-- #page -->
+    <a id="back-to-top" href="https://wa.me/+923284762936" class="show"><i class="ot-flaticon-left-arrow"></i></a>
+    <a href="tel:+923284762936"
     
-    
-</div>
-<!--End pagewrapper-->
-
-
-<!--Search Popup-->
-<div id="search-popup" class="search-popup">
-	<div class="close-search theme-btn"><span class="flaticon-unchecked"></span></div>
-	<div class="popup-inner">
-    
-    	<div class="search-form">
-        	<form method="post" action="index.html">
-            	<div class="form-group">
-                	<fieldset>
-                        <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
-                        <input type="submit" value="Search" class="theme-btn">
-                    </fieldset>
-                </div>
-            </form>
-            
-            <br>
-            <h3>Recent Search Keywords</h3>
-            <ul class="recent-searches">
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">SEO</a></li>
-                <li><a href="#">Logistics</a></li>
-                <li><a href="#">Freedom</a></li>
-            </ul>
-        
-        </div>
-        
-    </div>
-</div>
-
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="fa fa-long-arrow-up"></span></div>
-
-
-<script src="js/jquery.js"></script> 
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script>
-<script src="js/validate.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/script.js"></script>
-
-<!--Google Map APi Key-->
-<script src="http://maps.google.com/maps/api/js?key="></script>
-<script src="js/map-script.js"></script>
-<!--End Google Map APi-->
-
+    style="
+    position: fixed;
+    right:20px;
+    bottom:120px;
+    z-index: 9999;
+    "
+    ><img src="images/whatsapp-icon-2038x2048-5zk5gj1j.png" alt="" style="max-width:60px !important;"></a>
+        <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/mousewheel.min.js"></script>
+    <script src="js/lightgallery-all.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/easypiechart.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/royal_preloader.min.js"></script>
+    <script>
+        window.jQuery = window.$ = jQuery;  
+        (function($) { "use strict";
+            //Preloader
+            Royal_Preloader.config({
+                mode           :   'progress',
+                background     :   '#09403D',
+            });
+        })(jQuery);
+    </script>  
 </body>
 </html>
