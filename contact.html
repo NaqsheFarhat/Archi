@@ -142,7 +142,7 @@
                         <div class="contact-left">
                             <h2>Get in Touch</h2>
                             <p class="font14">Your email address will not be published. Required fields are marked *</p>
-                            <form action="https://formsubmit.co/ansazharmalik54321@gmail.com" method="POST" class="wpcf7">
+<!--                             <form action="https://formsubmit.co/ansazharmalik54321@gmail.com" method="POST" class="wpcf7">
                                 <input type="hidden" name="_subject" value="New Message from Your NaqsheFarhat">
                                 <input type="hidden" name="_captcha" value="false">
                             
@@ -168,8 +168,27 @@
                                     <div class="error" id="err-timedout">The connection to the server timed out!</div>
                                     <div class="error" id="err-state"></div>
                                 </div>
-                            </form>
+                            </form> -->
                             
+<!-- Temporarily remove custom error spans to isolate the issue -->
+<form action="https://formsubmit.co/ansazharmalik54321@gmail.com" method="POST" class="wpcf7">
+    <input type="hidden" name="_subject" value="New Message from Your NaqsheFarhat">
+    <input type="hidden" name="_captcha" value="false">
+    
+    <div class="main-form">
+        <p>
+            <input type="text" name="name" size="40" placeholder="Your Name *" required>
+        </p>
+        <p>
+            <input type="email" name="email" size="40" placeholder="Your Email *" required>
+        </p>
+        <p>
+            <textarea name="message" cols="40" rows="10" placeholder="Message..." required></textarea>
+        </p>
+        <p><button type="submit" class="octf-btn">Send Message</button></p>
+    </div>
+</form>
+
 
                             <div class="clear"></div>
                             <div id="ajaxsuccess">Successfully sent!!</div>
